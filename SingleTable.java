@@ -31,7 +31,8 @@ public class SingleTable {
 
     /** Sets the quality of the view from this table to value . */
     public void setViewQuality(double value) {
-        /* implementation not shown */ }
+        viewQuality = value;
+    }
     // There may be instance variables, constructors, and methods that are not
     // shown.
 }
