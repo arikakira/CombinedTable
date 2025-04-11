@@ -19,12 +19,14 @@ public class SingleTable {
 
     /** Returns the height of this table in centimeters. */
     public int getHeight() {
-        /* implementation not shown */ }
+        return height;
+    }
 
 
     /** Returns the quality of the view from this table. */
     public double getViewQuality() {
-        /* implementation not shown */ }
+        return viewQuality;
+    }
 
 
     /** Sets the quality of the view from this table to value . */
